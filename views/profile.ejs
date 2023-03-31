@@ -1,0 +1,26 @@
+<%- include("partials/header.ejs") -%>
+
+<h2 style="font-family: 'Sacramento', cursive; font-size: 45px;">Your Contributions</h2>
+
+<div class="container-fluid" style="padding-top: 18px;">
+<div class="row gy-5">
+<% posts.forEach(function(post){ %>
+    <div class="col-md-3">
+        <div class="card h-100 border-info ">
+            <img class="card-img-top" src="data:image/<%=post.img.contentType%>;base64,<%=post.img.data.toString('base64')%>">
+            <div class="card-body">
+                <h3 class="card-title"><strong><%= post.title.toUpperCase() %></strong></h3>
+                <p style="font-size: 12px;" class="card-text"><%= post.content.substring(0, 100) + "..." %></p>
+                <a href="/posts/<%= post._id %>" class="btn btn-outline-secondary">Read More</a>
+                <form action="/delete" method="post" class="d-inline">
+                    <button type="submit" class="btn btn-outline-danger" name="del" value=<%= post._id %>>Delete</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br><br>
+<% }) %> 
+</div>
+</div>
+
+<%- include("partials/footer.ejs") -%>

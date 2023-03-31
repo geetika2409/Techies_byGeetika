@@ -1,0 +1,72 @@
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+.navbar-nav  li a:hover {
+    color: #7e918d !important;
+}
+.img{
+    height: 400px;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.card{
+    transition: all 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card-img-top{
+    height: 280px;
+    
+}
+
+.bt{
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: fixed;
+    left: 0;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #373838;
+}
+
+.footer p {
+	margin-top: 25px;
+    font-size: 12px;
+    color: #fff;
+}
+
+
+.centered {
+      padding-top: 200px;
+      text-align: center;
+}
+  
+  

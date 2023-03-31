@@ -1,0 +1,18 @@
+<%- include("partials/header"); %>
+<div class="containerb">
+     <div class="form-group">
+        <h1> Compose </h1>
+    <form action="/compose" method="post" enctype="multipart/form-data">
+        <label> Title </label>
+        <input class="form-control" type="text" name="postTitle" required>
+        <label> Post </label>
+        <textarea class="form-control" name="postBody" rows="5" cols="30" required></textarea>
+        <label>Upload Image</label>
+        <input type="file" class="form-control" name="image" required>
+        <button class="btn btn-primary" type="submit" id="button" name="button">Publish</button>
+    </div>
+    </form>
+</div>
+
+    
+<%- include("partials/footer"); %>

@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "..\\rj-project-app"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\ZYKAA"
+		},
+		{
+			"path": "..\\To Do List"
+		},
+		{
+			"path": "..\\todolist"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ZYKAA"
+	}
+}

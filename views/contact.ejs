@@ -1,0 +1,13 @@
+<%- include("partials/header.ejs") -%>
+
+<div class="containera">
+    <form action="mailto:isha24092000@gmail.com" method="post" enctype="text/plain" target="_blank">
+        <h1> Contact Us</h1>
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="email" id="email" placeholder="Email-Id" required>
+        <input type="text" id="phone" placeholder="Mobile Number">
+        <textarea id="message" rows="4" placeholder="How can we help you" required></textarea>
+        <button type="submit" id="button">Message</button>
+    </form>
+</div>
+<%- include("partials/footer.ejs") -%>

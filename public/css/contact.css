@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body{
+    margin: 0;
+}
+.containera{
+    min-height: 100vh;
+    background-color: rgba(11, 2, 66, 0.911);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containera form{
+    width: 670px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+}
+.containera form h1{
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400px;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+}
+.containera form input{
+    min-width: 600px;
+    max-width: 600px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid #fff;
+}
+.containera form input::placeholder{
+    color: rgb(201, 198, 198);
+}
+.containera form textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-weight: 200px;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    max-width: 600px;
+    min-width: 600px;
+    min-height: 80px;
+    max-height: 80px;
+}
+.containera form textarea::placeholder{
+    color:rgb(201, 198, 198);
+}
+textarea::-webkit-scrollbar{
+    width: 1em;
+}
+textarea::-webkit-scrollbar-thumb{
+    background-color: rgba(194,194,194,0.713);
+}
+.containera form button{
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 600px;
+    font-size: 20px;
+    color: #333;
+    width: 300px;
+    padding: 0;
+    transition: 0.3s;
+}
+.containera form #button:hover{
+    opacity: 0.7;
+}
+.containerb{
+    min-height: 100vh;
+    background-color: rgba(16, 9, 66, 0.911);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containerb form{
+    width: 670px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+}
+
+.containerb h1{
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500px;
+    margin: auto;
+    width: 500px;
+    text-align: center;
+}
+
+.containerb form input{
+    min-width: 600px;
+    max-width: 600px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid #fff;
+}
+
+.containerb form label{
+    color: rgb(201, 198, 198);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400px;
+    margin-top: 20px;
+    width: 500px;
+    text-align: left;
+}
+
+.containerb form textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-weight: 200px;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    max-width: 600px;
+    min-width: 600px;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+textarea::-webkit-scrollbar{
+    width: 1em;
+}
+
+textarea::-webkit-scrollbar-thumb{
+    background-color: rgba(194,194,194,0.713);
+}
+
+.containerb form button{
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 600px;
+    font-size: 20px;
+    color: #333;
+    width: 300px;
+    padding: 0;
+    transition: 0.3s;
+}
+
+.containerb form #button:hover{
+    opacity: 0.7;
+    color: #fff;
+}
